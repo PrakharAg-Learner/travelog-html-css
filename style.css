@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  overflow: hidden;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-25 {
+  font-size: 25px !important;
+}
+
+.fa-20 {
+  font-size: 20px !important;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.mg-10 {
+  margin: 10px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: url("./images/test.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: slide 24s infinite;
+  transition-duration: 4s;
+}
+
+@keyframes slide {
+  0% {
+    background: url("./images/green-plants-covered-mountain-945556.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 4s;
+    width: 100%;
+  }
+  20% {
+    background: url("./images/high-angle-photography-of-mountain-pathway-2082949.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    width: 100%;
+  }
+  40% {
+    background: url("./images/aerial-shot-of-brown-and-gray-rock-mountain-range-with-cloud-2968777.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    width: 100%;
+  }
+  60% {
+    background: url("./images/bird-eye-photogrpahy-of-beachline-beside-trees-1078983.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    width: 100%;
+  }
+  80% {
+    background: url("./images/photo-of-temple-during-daytime-3361480.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    width: 100%;
+  }
+  100% {
+    background: url("./images/test.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    width: 100%;
+  }
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.social-plugins ul li {
+  padding: 5px;
+}
+
+.navigation ul li {
+  padding: 10px;
+}
+
+.navigation ul li:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.home-content {
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  padding-top: 20rem;
+  text-transform: uppercase;
+  position: absolute;
+  left: 31%;
+}
+
+.home-content h3 {
+  padding-top: 13px;
+  margin-right: 10px;
+}
+
+.home-content h1 {
+  letter-spacing: 10px;
+}
+
+.home-content .underline {
+  height: 3px;
+  background-color: black;
+  width: 50%;
+  position: absolute;
+  bottom: 15%;
+  left: 42%;
+}
